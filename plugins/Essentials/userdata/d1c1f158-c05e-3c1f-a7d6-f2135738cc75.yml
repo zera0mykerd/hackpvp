@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1650472255560
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1650472259499
+  login: 1650472206488
+money: '0'
+last-account-name: _ZERA_
+lastlocation:
+  world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
+  world-name: world
+  x: 0.0
+  y: 146.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
+  world-name: world
+  x: -8.119224364707868
+  y: 100.0
+  z: 0.7521936672611772
+  yaw: 93.5036392211914
+  pitch: -3.36959171295166
