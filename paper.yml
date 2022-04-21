@@ -1,0 +1,144 @@
+# This is the main configuration file for PaperSpigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to PaperSpigot,
+# join us at the IRC.
+# 
+# IRC: #paperspigot @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=PaperSpigot )
+
+config-version: 9
+warnWhenSettingExcessiveVelocity: true
+settings:
+  baby-zombie-movement-speed: 0.5
+  limit-player-interactions: true
+  load-permissions-yml-before-plugins: true
+  sleep-between-chunk-saves: false
+  region-file-cache-size: 256
+  enable-player-collisions: true
+  save-empty-scoreboard-teams: false
+  min-chunk-load-threads: 2
+  set-health-before-death-event: false
+effect-modifiers:
+  strength: 1.3
+  weakness: -0.5
+stackable-buckets:
+  lava: false
+  water: false
+  milk: false
+data-value-allowed-items: []
+world-settings:
+  default:
+    verbose: false
+    use-async-lighting: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
+    disable-thunder: true
+    fix-cannons: false
+    water-over-lava-flow-speed: 5
+    allow-undead-horse-leashing: false
+    all-chunks-are-slime-chunks: false
+    keep-spawn-loaded: true
+    disable-ice-and-snow: true
+    falling-blocks-collide-with-signs: false
+    portal-search-radius: 128
+    disable-mood-sounds: false
+    tnt-entity-height-nerf: 0
+    disable-explosion-knockback: true
+    load-chunks:
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    fast-drain:
+      lava: false
+      water: false
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: true
+      disable-end-credits: true
+    cache-chunk-maps: false
+    use-hopper-check: false
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
+    container-update-tick-rate: 6
+    allow-block-location-tab-completion: true
+    generator-settings:
+      canyon: true
+      caves: true
+      dungeon: true
+      fortress: true
+      mineshaft: true
+      monument: true
+      stronghold: true
+      temple: true
+      village: true
+      flat-bedrock: false
+    remove-invalid-mob-spawner-tile-entities: true
+    optimize-explosions: true
+    mob-spawner-tick-rate: 3
+    player-blocking-damage-multiplier: 0.5
+    tnt-explosion-volume: 4.0
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    nether-ceiling-void-damage: false
+    falling-block-height-nerf: 0
+    disable-teleportation-suffocation-check: true
+    base-chunks-threads: 2
+    players-per-chunk-thread: 50
+    queue-light-updates: false
+    use-chunk-inhabited-timer: true
+    use-vanilla-world-scoreboard-name-coloring: false
+    delay-chunk-unloads-by: 0s
+    lootables:
+      auto-replenish: false
+      restrict-player-reloot: true
+      reset-seed-on-fill: true
+      max-refills: -1
+      refresh-min: 12h
+      refresh-max: 2d
+    keep-spawn-loaded-range: 8
+    allow-non-player-entities-on-scoreboards: false
+    hopper:
+      push-based: true
+    frosted-ice:
+      enabled: true
+      delay:
+        min: 20
+        max: 40
+    grass-spread-tick-rate: 6
+    enable-old-tnt-cannon-behaviors: false
+    non-player-arrow-despawn-rate: -1
+    elytra-hit-wall-damage: true
+    baby-zombie-movement-speed: 0.5
+    allow-leashing-undead-horse: false
+    skeleton-horse-thunder-spawn-chance: -1.0
+    fire-physics-event-for-redstone: false
+    spawner-nerfed-mobs-should-jump: false
+timings:
+  enabled: true
+  verbose: true
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600

@@ -1,0 +1,27 @@
+server.basics:
+       description: Permessi di base.
+       default: true
+       children:
+          Essentials.kits.hack: true
+          authme.register: true
+          authme.login: true
+          authme.changepassword: true
+          authme.unregister: true
+          bukkit.*: false
+          minecraft.*: false
+          viaversion.admin: false
+          worldguard.*: false
+          worldedit.*: false
+          nocheatplus.*: false
+          nocheatsplus.*: false
+          skinsrestorer.*: false
+          minecraft.command.setblock: true
+          minecraft.command.summon: true
+          atomspigot.command.ping: true
+          bukkit.command.tps: true
+          essentials.gc: true
+          nocheatplus.notify: true
+          fix.use: true
+          ChatChat.icc: true
+          simplespawn.setspawn: false
+          simplespawn.spawn: true
