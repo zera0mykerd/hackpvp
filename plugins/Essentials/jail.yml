@@ -1,0 +1,25 @@
+jails:
+  underground:
+    world: world
+    x: -13.41404188917177
+    y: 91.0
+    z: -101.5021448893766
+    yaw: 178.80328
+    pitch: -86.31358
+    world-name: ''
+  zerahome:
+    world: world
+    x: -13.554573950433847
+    y: 96.0
+    z: -101.55944228361894
+    yaw: 0.8222656
+    pitch: 0.9120729
+    world-name: ''
+  ban:
+    world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
+    world-name: world
+    x: -13.526380005645745
+    y: 91.0
+    z: -101.55278391590629
+    yaw: 64.9505615234375
+    pitch: 26.716794967651367
