@@ -1,0 +1,102 @@
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: |4-
+      &2&lSkinsRestorer &7- &f&lv%ver%
+       &2/skin <skinname> &7-&f Cambia la tua skin.
+        &2/skin update &7-&f Aggiorna la tua skin.
+        &2/skin clear &7-&f Pulisci la tua skin.
+HELP_SKIN_CLEAR: Pulisci la tua skin.
+HELP_SKIN_CLEAR_OTHER: Pulisce la skin di un altro giocatore.
+HELP_SKIN_UPDATE: Aggiorna la tua skin.
+HELP_SKIN_UPDATE_OTHER: Aggiorna la skin di un altro giocatore.
+HELP_SKIN_SET: Configura la tua skin.
+HELP_SKIN_SET_OTHER: Configura la skin di un altro giocatore.
+HELP_SR_RELOAD: Ricarica il file di configurazione.
+HELP_SR_STATUS: Verifica i servizi API necessari affinché questo plugin funzioni.
+HELP_SR_DROP: Elimina i dati sulla skin dei giocatori.
+HELP_SR_PROPS: Visualizza la skin effettiva del giocatore come proprieta.
+PLAYER_HAS_NO_PERMISSION_SKIN: '&e[&6Skinmanager&e] &4Errore&8: &cNon hai il permesso
+    per configurare la skin.'
+SKIN_DISABLED: '&e[&6Skinmanager&e] &4Errore&8: &cSkin disabilitata da amministratore.'
+NOT_PREMIUM: '&e[&6Skinmanager&e] &4Errore&8: &cGiocatore premium con quella skin
+    non trovato.'
+INVALID_PLAYER: '&e[&6Skinmanager&e] &4Errore&8: &c%player nome non valido.'
+SKIN_COOLDOWN_NEW: '&e[&6Skinmanager&e] &4Errore&8: &cNon puoi cambiare skin per altri
+    &e%s &csecondi.'
+SKIN_CHANGE_SUCCESS: '&e[&6Skinmanager&e] &2Skin cambiata con successo.'
+SKIN_CLEAR_SUCCESS: '&e[&6Skinmanager&e] &2Skin pulita con successo.'
+SKIN_CLEAR_ISSUER: '&e[&6Skinmanager&e] &2Skin pulita per il giocatore %player.'
+SUCCESS_UPDATING_SKIN: '&e[&6Skinmanager&e] &2Skin aggiornata con successo.'
+SUCCESS_UPDATING_SKIN_OTHER: '&e[&6Skinmanager&e] &2Skin aggiornata per il giocatore
+    %player.'
+ERROR_UPDATING_SKIN: '&e[&6Skinmanager&e] &4Errore&8: &cErrore nel tentativo di aggiornare
+    la skin!'
+GENERIC_ERROR: '&e[&6Skinmanager&e] &4Errore&8: &cErrore generale nei pacchetti di
+    skin!'
+WAIT_A_MINUTE: '&e[&6Skinmanager&e] &4Errore&8: &cPer favore attendi un minuto prima
+    di rifare richiesta!'
+MENU_OPEN: '&2Aprendo il menu delle skins...'
+NEXT_PAGE: '&a&l»&7 Prossima pagina&a&l »'
+PREVIOUS_PAGE: '&e&l»&7 Pagina precedente&e&l «'
+REMOVE_SKIN: '&c&l»&7 Rimuovi skin&c&l »'
+SELECT_SKIN: '&2Clicca per selezionare questa skin'
+ADMIN_SET_SKIN: '&e[&6Skinmanager&e] &2Tu hai messo la skin a %player'
+SKIN_DATA_DROPPED: '&e[&6Skinmanager&e] &2Dati skin per il giocatore %player rimossi.'
+STATUS_OK: '&e[&6Skinmanager&e] &2Connessione eseguita con successo alle API della
+    Mojang!'
+ALT_API_FAILED: '&e[&6Skinmanager&e] &4Errore&8: &cDati API skin in overload!'
+NO_SKIN_DATA: '&e[&6Skinmanager&e] &4Errore&8: &cNon abbiamo trovato dati skin per
+    il giocatore'
+RELOAD: '&e[&6Skinmanager&e] &aFile di configurazione locale ricaricato!'
+OUTDATED: "&e[&6Skinmanager&e] &4Tu stai eseguendo una versione obsoleta di SkinsRestorer!\n\
+    &cPlease update to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+PLAYER_HAS_NO_PERMISSION_URL: '&e[&6Skinmanager&e] &4Errore&8: &cNon hai il permesso
+    di configurare la skin da URL.'
+MS_UPDATING_SKIN: '&e[&6Skinmanager&e] &2Aggiornando skin, attendere prego...'
+ERROR_MS_FULL: '&e[&6Skinmanager&e] &4MS Errore&8: &cAPI tempo scaduto per aggiornamento.'
+ERROR_MS_GENERIC: '&e[&6Skinmanager&e] &4MS Errore&8: &c%error%'
+MS_API_FAILED: '&e[&6Skinmanager&e] &4Errore&8: &cMineSkin API in overload, riprovare
+    in seguito.'
+PREFIX: '&e[&2SkinsRestorer&e] '
+ERROR_UPDATING_URL: "&4Error&8: &cYou can't update custom url skins! \n&cRequest again\
+    \ using /skin url"
+ERROR_INVALID_URLSKIN: "&4Error&8: &cInvalid skin url or format, \n&c try uploading\
+    \ your skin to imgur and right click copy imgurl \n&cFor guide see: \n&c&o skinsrestorer.net/skinurl"
+ERROR_MOJANG_outage: "&4Error&8: &4&nMojang skin service is down. \n&cWe can only\
+    \ provide already recently requested skins. \n&cNew ones will fail to request..."
+SKINSMENU_OPEN: '&2Opening the skins menu...'
+SKINSMENU_TITLE: '&9Skins Menu - Page '
+SKINSMENU_NEXT_PAGE: '&a&l�&7 Next Page&a&l �'
+SKINSMENU_PREVIOUS_PAGE: '&e&l�&7 Previous Page&e&l �'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Remove Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Click to select this skin'
+ERROR_NO_SKIN: '&4Error&8: &cThis player has no skin set.'
+HELP_SKIN_SET_OTHER_URL: Set a skin by Image_url.png
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <url>'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+SKIN_COOLDOWN: '&4Error&8: &cYou can change your skin again in &e%s &cseconds.'
+ERROR_UPDATING_CUSTOMSKIN: '&4Error&8: &cSkin can''t be updated because its custom.'
+SKINSMENU_TITLE_NEW: '&9Skins Menu - Page %page'
+DATA_DROPPED: '&2Data dropped for %playerOrSkin %targets.'
+HELP_SR_APPLY_SKIN: Re-apply the skin for target user.
+HELP_SR_CreateCustom: Name & create a custom skin
+SKINURL_DISALLOWED: '&4Error&8: &cThis domain has not been allowed by the administrator.'
+SUCCESS_CREATE_SKIN: '&2Skin %skin has been created!'
+Completions_Skin: <Skin>
+Completions_SkinName: <SkinName>
+Completions_SkinUrl: <SkinUrl>
+CUSTOM_HELP_IF_ENABLED: |4-
+      &2&lSkinsRestorer &7- &f&lv%ver%
+       &2/skin <skinname> &7-&f Changes your skin.
+        &2/skin update &7-&f Updates your skin.
+        &2/skin clear &7-&f Clears your skin.
+HELP_SR_CREATECUSTOM: Create a custom server wide skin
+COMPLETIONS_SKIN: <Skin>
+COMPLETIONS_SKINNAME: <SkinName>
+COMPLETIONS_SKINURL: <SkinUrl>
+SKINSMENU_CLEAR_SKIN: '&c&l[ &7Remove Skin&c&l ]'
+ADMIN_APPLYSKIN_SUCCES: '&2Player skin has been refreshed!'
+ADMIN_APPLYSKIN_ERROR: '&4ERROR&8: &cplayer skin could NOT be refreshed!'
