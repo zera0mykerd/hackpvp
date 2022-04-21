@@ -1,0 +1,7 @@
+Con worldguard se sei oppato devi mettere op-permission: true nel config principale.
+Poi togliere only-console in nocheatplus e blocked-commands.
+Abilitare i comandi nel config principale di essentials.
+
+Controllare anche il "permissions.yml" nella cartella principale e mettere true bukkit.* e minecraft.*
+
+Inoltre bisogna controllare il "config.yml" nella cartella principale AtomSpigot per prevenire i giocatori oppati (altro livello di sicurezza).
