@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1650459420752
+  lastteleport: 1655324317559
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1650459706648
-  login: 1650459418459
+  logout: 1655324379307
+  login: 1655324309803
   kits:
     hack: 1650310499860
 money: '0'
@@ -25,20 +25,20 @@ last-account-name: zera_mykerd
 lastlocation:
   world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
   world-name: world
-  x: 0.5
-  y: 147.70493402823675
-  z: 0.5
-  yaw: 180.748291015625
-  pitch: 4.598374843597412
-nickname: §4§l{Founder}§6§l§o§m-§c§lzera_mykerd
+  x: -8.699999988079071
+  y: 98.0
+  z: 10.93121712318574
+  yaw: 49.88120651245117
+  pitch: 34.10881423950195
+nickname: §4§l{OWNER}§6§l§o§m-§c§lzera_mykerd
 logoutlocation:
   world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
   world-name: world
-  x: -13.109078995885865
-  y: 98.35457547425682
-  z: -99.37718909129741
-  yaw: 177.2152099609375
-  pitch: 2.755159378051758
+  x: 157.58010101109775
+  y: 54.0
+  z: 244.35423074494116
+  yaw: 22.32028579711914
+  pitch: 8.601598739624023
 homes:
   home:
     world: 52530f25-31bb-443c-a1fc-49ee97f5b1cd
