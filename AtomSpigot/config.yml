@@ -115,7 +115,7 @@ settings:
   async:
     async-hit-detection: true
     async-knockback-detection: true
-    affinity-threads: true
+    affinity-threads: false
     allow-async-dispatch-commands: true
     concurrent-world-support: true
     async-bans-and-profiles-load: false
