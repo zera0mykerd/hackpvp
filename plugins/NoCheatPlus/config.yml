@@ -122,7 +122,6 @@ protection:
         - minecraft:enchant
         - minecraft:execute
         - minecraft:experience
-        - minecraft:fill
         - minecraft:forceload
         - minecraft:function
         - minecraft:give
@@ -140,7 +139,6 @@ protection:
         - minecraft:op
         - minecraft:deop
         - minecraft:particle
-        - minecraft:playsound
         - minecraft:publish
         - minecraft:recipe
         - minecraft:stop
@@ -158,8 +156,6 @@ protection:
         - minecraft:setworldspawn
         - minecraft:spawnpoint
         - minecraft:spreadplayers
-        - minecraft:stopsound
-        - minecraft:summon
         - minecraft:tag
         - minecraft:team
         - minecraft:teleport
@@ -196,7 +192,6 @@ protection:
         - effect
         - execute
         - experience
-        - fill
         - forceload
         - function
         - immutableworld
@@ -205,7 +200,6 @@ protection:
         - mixer
         - mobevent
         - particle
-        - playsound
         - publish
         - recipe
         - stop
@@ -223,8 +217,6 @@ protection:
         - setworldspawn
         - spawnpoint
         - spreadplayers
-        - stopsound
-        - summon
         - team
         - teleport
         - teamncp tell
@@ -505,9 +497,6 @@ protection:
         - /email
         - mail
         - /mail
-        - summon
-        - /summon
-        - //summon
         - skin
         - sr
         - skinsrestorer
@@ -682,10 +671,6 @@ protection:
       - toggleplace
       - /toggleplace
       - //toggleplace
-      - /fill
-      - //fill
-      - /fillr
-      - //fillr
       - /drain
       - //drain
       - /fixwater
@@ -1224,7 +1209,6 @@ protection:
       - pvpkit
       - createkit
       - deletekit
-      - refill
       - soup
       - renamekit
       - kingkit
@@ -1411,12 +1395,6 @@ protection:
       - minecraft:setblock
       - /minecraft:setblock
       - //minecraft:setblock
-      - minecraft:summon
-      - /minecraft:summon
-      - //minecraft:summon
-      - summon
-      - /summon
-      - //summon
       - skin
       - sr
       - skinsrestorer

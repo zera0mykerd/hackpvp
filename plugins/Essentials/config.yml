@@ -46,6 +46,7 @@ add-prefix-suffix: true
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
 teleport-safety: true
+#force-disable-teleport-safety: true
 
 # The delay, in seconds, required between /home, /tp, etc.
 teleport-cooldown: 0
