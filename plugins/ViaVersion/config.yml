@@ -40,7 +40,7 @@ suppress-conversion-warnings: false
 # What is the maximum per second a client can send (Use %pps to display their pps)
 # Use -1 to disable.
 max-pps: 150
-max-pps-kick-msg: Hai inviato troppi pacchetti (%pps/150)
+max-pps-kick-msg: '&4Hai inviato troppi pacchetti &c&o(%pps/150)'
 # 
 # We can also kick them if over a period they send over a threshold a certain amount of times.
 # 
@@ -52,7 +52,7 @@ tracking-warning-pps: 120
 # How many warnings over the interval can we have
 # This can never be higher than "tracking-period"
 tracking-max-warnings: 4
-tracking-max-kick-msg: Hai inviato troppi pacchetti a intermittenza (%pps/120)
+tracking-max-kick-msg: '&cHai inviato troppi pacchetti a intermittenza &4&o(%pps/120)'
 # 
 # ----------------------------------------------------------#
 #                 MULTIPLE VERSIONS OPTIONS                #
@@ -93,14 +93,14 @@ fix-non-full-blocklight: true
 # Fixes walk animation not shown when health is set to Float.NaN
 fix-1_14-health-nan: true
 # Should 1.15+ clients respawn instantly / without showing a death screen?
-use-1_15-instant-respawn: false
+use-1_15-instant-respawn: true
 # 
 # Enable serverside block-connections for 1.13+ clients - all of the options in this section are built around this option
 serverside-blockconnections: true
 # Sets the method for the block connections (world for highly experimental (USE AT OWN RISK) world-level or packet for packet-level)
 blockconnection-method: packet
 # When activated, only the most important blocks are stored in the blockstorage. (fences, glass panes etc. won't connect to solid blocks)
-reduce-blockstorage-memory: false
+reduce-blockstorage-memory: true
 # When activated with serverside-blockconnections, flower parts with blocks above will be sent as stems
 # Useful for lobbyservers where users can't build and those stems are used decoratively
 flowerstem-when-block-above: true
@@ -130,7 +130,7 @@ prevent-collision: true
 # If the above is true, should we automatically team players until you do?
 auto-team: true
 # When enabled if certain metadata can't be read we won't tell you about it
-suppress-metadata-errors: false
+suppress-metadata-errors: true
 # When enabled 1.9+ will be able to block by using shields
 shield-blocking: true
 # If this setting is active, the main hand is used instead of the off hand to trigger the blocking of the player.
@@ -140,7 +140,7 @@ no-delay-shield-blocking: true
 # If this setting is active, the shield will appear immediately for 1.9+ when you hold a sword in your main hand.
 # The shield disappears when you switch to another item.
 # (Requires "shield-blocking" to be enabled)
-show-shield-when-sword-in-hand: false
+show-shield-when-sword-in-hand: true
 # Enable player tick simulation, this fixes eating, drinking, nether portals.
 simulate-pt: true
 # Should we use nms player to simulate packets, (may fix anti-cheat issues)
